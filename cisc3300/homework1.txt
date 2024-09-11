@@ -1,0 +1,11 @@
+1. HTML stands for Hypertext Markup Language. It is a standard markup language that defines the structure and content of websites.
+
+  2. CSS stands for Cascading Style Sheets. It is a style sheet language often used to specify the presentation and styling of a document written in HTML.
+
+3. The fordham website uses structure to guide users towards their intended target by placing drop-down menus across the top of the screen, in order to allow for easy navigation of the many pages on the site.
+  It also organizes important links into areas based on their relation, so that users can find what they are looking for easily.
+4.
+5.
+6. 
+7.
+8.
