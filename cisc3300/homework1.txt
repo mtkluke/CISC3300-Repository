@@ -4,8 +4,13 @@
 
 3. The fordham website uses structure to guide users towards their intended target by placing drop-down menus across the top of the screen, in order to allow for easy navigation of the many pages on the site.
   It also organizes important links into areas based on their relation, so that users can find what they are looking for easily.
-4.
-5.
-6. 
-7.
-8.
+4. A HTML element is a component of a web page's structure which contains the opening tag, conntent enclosed within the web page, and a closing tag. A tag is a component of this element, consisting of a name between two <> brackets denoting the beginning or end of an element.
+	An attribute provides additional information about an element, being defined within the opening tag. They usually have a name and value associated with the name.
+5.A CSS rule is made up of a selector and a declaration block. The declaration block contains properties and values to be applied as styles to elements, and the selector specifies which elements are being selected.
+6. CSS rules "cascade" in that different stylesheets and style rules are applied to elements with certain rules taking precedence over others. The browser uses a specific set of rules to determine which styles should be applied to which elements based on a variety of factors, like importance,specificity, source order, inheritance, and other considerations.
+7.The relevant src element would be <img src="../images/pinecone.jpg" alt="Pinecone image">
+8.When submitting an html form, the default behavior typically follows 4 steps.
+	i. Form Data Submission: The form data is collected from input fields
+	ii. HTTP Request: A HTTP GET or POST request is sent 
+	iii. Redirect to correct URL: The browser sends the form data to the server using the URL specfied in the form's action attribute.
+	iiii. Page Reload or Redirect: After the form is submitted, the page reloads and navigates to the URL specified.
