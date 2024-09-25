@@ -1,0 +1,8 @@
+1. Interpreted language
+2. Dynamic typing
+3. Prototype-based
+4. Variables that are block scoped use the keyword let
+5. Scope
+6. Const Variable
+7. Callbacks
+8. Objects
