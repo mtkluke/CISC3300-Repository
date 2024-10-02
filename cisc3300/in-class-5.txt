@@ -1,0 +1,6 @@
+1. tree structure, access/manipulate
+2. Cross-Site Scripting (XSS)
+3. actions
+4. addEventListener()
+5. jQuery
+6. val()

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <title>Homework 3:Questions 6-10</title>
+</head>
+<body>
+
+    <script>
+        // Question 6
+        let randomValue = Math.random() * 10;
+        let result = randomValue > 5 ? "greater than five!" : "less than five!";
+        console.log(result); 
+
+        // Question 7
+        const cats = [
+            { name: 'Charlie', breed: 'Siamese', age: 3 },
+            { name: 'Lily', breed: 'Persian', age: 5 },
+            { name: 'Tom', breed: 'Maine Coon', age: 2 },
+        ];
+
+        for (let cat of cats) {
+            for (let key in cat) {
+                console.log(`${key}: ${cat[key]}`); 
+            }
+        }
+
+        // Question 8
+        let int1 = 1;
+        let str1 = '1';
+
+        if (int1 == str1) {
+            console.log('This is true with =='); 
+        }
+
+        if (int1 === str1) {
+            console.log('This will not log');
+        } else {
+            console.log('This is false with ===');
+        }
+
+        // Question 9
+        const cuteCats = cats.map(cat => `${cat.name} is cute!`);
+        console.log(cuteCats); 
+    </script>
+
+</body>
+</html>

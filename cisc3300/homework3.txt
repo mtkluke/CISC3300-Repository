@@ -1,0 +1,23 @@
+1. JavaScript is a high-level, interpreted programming language commonly used to add interactivity, dynamic content, and functionality to websites.
+In an interpreted language, the code is executed line by line by an interpreter when it is ran, converting each individual line into machine code. However, in a compiled language, the code is first compiled into machine code all at once by a compiler and then immediately ran by the CPU.
+
+2. In dynamically typed languages, the type of variable is determined at runtime. This means that you do not have to specify the type of variable when you declare it, allowing for more flexibility and readability.
+In statically typed languages, the type of variable is determined at compile time, meaning you must specifically declare the type of each variable and it cannot change once defined.
+Generally speaking, statically typed languages are more effecient and have a lower chance of encountering run time errors when compared to dynamically typed languages, at the cost of less flexibility.
+
+In strongly typed languages, the type of variable is strictly enforced and type conversions must be explicit.
+In weakly typed languages, types are more flexible and the language may automatically perform implicit type conversions.
+Generally speaking, strongly typed languages are less prone to bugs than weakly typed languages, at the cost of being far more rigid in their requirements.
+
+3. var: var is function/global scoped, can be accessed before the declaration, and it can be redeclared/redesigned. However, it is generally considered to be outdated and is used less in modern code than let/const.
+let: let is block scoped, cannot be accessed before the declaration as it exists in the TDZ, and it can be reassigned but not redeclared.
+const: const is also block scoped, cannot be accessed before the declaration, but it can be neither redeclared or reassigned as it is a constant.
+
+4.anonymous function:An anonymous function is a function that does not have a name. Instead of being defined with a name, it can be defined inline and can be assigned to a variable, passed as an argument to another function, or used as an expression.
+higher order function:A higher-order function is a function that takes one or more functions as arguments or returns a function as its result. This allows for more abstract and reusable code.
+callback function:A callback function is a function that is passed as an argument to another function and is executed after a certain event or condition is met.
+first class function:In JavaScript, functions are first-class citizens, meaning they can be treated like any other value. This includes being assigned to variables, passed as arguments to other functions, returned from functions, and stored in data structures.
+
+5.In JavaScript, an object is a complex data structure that allows you to store collections of data and more complex entities.
+Objects are central to JavaScript programming, serving as a way to structure and organize data and behavior.
+They enable encapsulation and allow developers to create complex data structures that represent real-world entities, making JavaScript a powerful language for both front-end and back-end development.
