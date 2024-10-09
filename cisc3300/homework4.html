@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+    <title>Interactive Lists and Form</title>
+    <style>
+        .error {
+            background-color: red;
+            color: white;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        .success {
+            background-color: green;
+            color: white;
+            padding: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Homework 4 Site</h1>
+
+    <h2>Click the List Items</h2>
+    <ul id="clickable-list">
+        <li>Click me!</li>
+        <li>Or click me!</li>
+        <li>Or me!</li>
+        <li>Don't click me I'll be pissed >:(</li>
+    </ul>
+
+    <h2>Cats List</h2>
+    <ul id="cats-list"></ul>
+
+    <h2>Submit Your Input</h2>
+    <form id="input-form">
+        <label for="input-field">Enter some text:</label>
+        <input type="text" id="input-field" required>
+        <button type="submit">Submit</button>
+    </form>
+    <div id="message"></div>
+
+    <script src="cats.js"></script>
+    <script>
+        // Function to change color of list items
+        document.getElementById('clickable-list').addEventListener('click', function(event) {
+            if (event.target.tagName === 'LI') {
+                const listItems = document.querySelectorAll('#clickable-list li');
+                listItems.forEach(item => {
+                    item.style.color = 'blue';
+                });
+            }
+        });
+
+        // Function to populate cats list
+        const catsList = document.getElementById('cats-list');
+        cats.forEach(cat => {
+            const li = document.createElement('li');
+            li.textContent = cat.name;
+            catsList.appendChild(li);
+        });
+
+        // Form submission handling
+        const form = document.getElementById('input-form');
+        const messageDiv = document.getElementById('message');
+
+        form.addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent default form submission
+
+            const inputField = document.getElementById('input-field');
+            const inputValue = inputField.value.trim();
+            messageDiv.textContent = ''; // Clear previous messages
+
+            if (inputValue === '') {
+                const errorMessage = document.createElement('div');
+                errorMessage.className = 'error';
+                errorMessage.textContent = 'Please Provide a Value';
+                messageDiv.appendChild(errorMessage);
+            } else {
+                const successMessage = document.createElement('div');
+                successMessage.className = 'success';
+                successMessage.textContent = 'Success';
+                messageDiv.appendChild(successMessage);
+                console.log(inputValue); // Log the input value
+            }
+
+            inputField.value = ''; // Clear the input field
+        });
+    </script>
+</body>
+</html>

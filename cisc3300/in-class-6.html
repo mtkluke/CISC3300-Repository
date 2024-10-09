@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    <title>In-Class-6 jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Send a GET request to the specified URL
+            $.get('http://localhost:3000/recipes', function(response) {
+                // Log the response to the console
+                console.log(response);
+            }).fail(function() {
+                console.error('Error fetching recipes');
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>Check the console for the array.</h1>
+</body>
+</html>

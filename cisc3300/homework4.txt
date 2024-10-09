@@ -1,0 +1,18 @@
+1. The DOM (Document Object Model) is a programming interface for web documents, representing the structure of an HTML or XML document as a tree of objects.
+Each node within the tree represents a part of the document, such as an element, attribute, or texts.
+The DOM tree refers to this hierarchical structure, where elements are organized in a parent-child relationship, allowing scripts to access, modify, and interact with the content dynamically.
+
+2. An XSS (Cross-Site Scripting) attack occurs when attackers inject malicious scripts into trusted websites, which are then executed in the user's browser to steal data or impersonate users.
+These attacks exploit vulnerabilities in web applications that fail to properly sanitize or validate user input.
+To defend against XSS, developers should sanitize inputs, escape special characters when displaying user-generated content, and implement a Content Security Policy (CSP) to control what resources a browser can load.
+
+3. An event is an action or occurence that the browser can trigger, such as a mouse click, button press, or page load.
+They allow developers to write code to respond to these interactions, enabling dynamic behavior on a web page.
+
+4. A DOM event listener works by "listening" for a specific event (like a click or key press) on a selected element, and then executing a function when that event occurs.
+When using the addEventListener method, there are 3 expected parameters: An Event Type,A Callback Function, and a options object/boolean value.
+
+5. jQuery is a fast, lightweight JavaScript library that simplifies HTML document manipulation, event handling, animation, and AJAX interactions.
+It acts as a simple API that works across many browsers, making DOM manipulation and event handling far more straightforward than vanilla javascript.
+It's simple syntax and compatability makes it a very popular choice among developers for things like selecting elements, creating animations, and handling events.
+To load jQuery, you can download and reference the jQuery library or use a <script> tag linking to a CDN-hosted version.
