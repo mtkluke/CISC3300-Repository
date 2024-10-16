@@ -1,0 +1,33 @@
+1. HTTP stands for HyperText Transfer Protocol, and it is a protocol used to transfer data over the internet.
+It defines how messages are formatted and transmitted, and how web servers/browsers respond to commands.
+The different request methods are used to accomplish various purposes:
+GET - Requests data from a specified resource
+POST - Submits data to a specified resource
+PUT - Replaces/Updates a resource at the specified URL
+DELETE - Deletes the specified resource
+PATCH - Partially modifies a resource
+
+2. An API, or Application Programming Interface, is a set of rules or protocols that allow different software applications to communicate with each other.
+It defines the methods and data formats that applications can use to request and exchange information.
+
+JSON is a lightweight data-interchange format that is easy for humans to read/write, and easy for machines to parse and generate.
+It is frequently used in conjunction with APIs to transmit data between a server and a web application.
+
+3. AJAX, or Asynchronous JavaScript and XML, is a technique used in web development to create dynamic, interactive web pages by allowing web applications to send and recieve data from the server asynchronously without refreshing the page.
+Asynchronous code as a whole refers to any programming which allows multiple operations to occur independently, where tasks are started but the code does not wait for it to finish before beginning another task.
+This allows for more code to execute at once, increasing responsiveness and efficiency.
+
+4. REST, or Representational State Transfer, is an architectural style for designing networked applications, especially web services.
+RESTful systems communicate over HTTP by treating data and services as resources.
+
+If I had an application named posts that was designed in a RESTful way, I would use the following commands to accomplish the following tasks:
+a. Retrieve multiple posts - GET /posts
+b. Retrieve a single post - GET /posts/[id]
+c. Save/Create a new post - POST /posts
+d. Update an existing post - PUT /posts/[id]
+
+5. Hoisting is a JavaScript mechanism where variable and function declarations are moved to the top of their containing scope(either local or global) during the compilation phase, before code execution.
+This allows you to call the variable/function before its declaration.
+
+A closure is a function that "remembers" its lexical environment, even after the outer function that created it has finished executing.
+This allows functions to access variables from an outer scope function even after the function has returned.

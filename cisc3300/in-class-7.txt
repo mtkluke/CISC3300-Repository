@@ -1,0 +1,8 @@
+1. .htaccess file.
+2. PHP opening tag(<?php)
+3. $
+4. Arrays/Objects
+5. Associative Arrays
+6. Double Quotes
+7. include
+8. data type

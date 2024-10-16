@@ -1,29 +1,34 @@
 {
-    "recipes": [
-        {
-            "id": 1,
-            "title": "Poop Soup",
-            "description": "Pretty self explanatory."
-        },
-        {
-            "id": 2,
-            "title": "Chicken Nuggies",
-            "description": "The savory ambrosia of the gods, the one and only"
-        },
-        {
-            "id": 3,
-            "title": "Boiled Chicken Thigh with an ounce of ranch dressing",
-            "description": "I caught our line cook off two edibles eating this in the walk in freezer, he said the macros are fantastic."
-        },
-        {
-            "id": 4,
-            "title": "Also Poop Soup",
-            "description": "Somehow popular enough to show up twice. World Famous! Bread Bowl +2$"
-        },
-        {
-            "id": 5,
-            "title": "Box Mix Brownies",
-            "description": "Tastes just like your 4th grade pizza party!"
-        }
-    ]
+  "recipes": [
+    {
+      "id": "1",
+      "title": "Poop Soup",
+      "description": "Pretty self explanatory."
+    },
+    {
+      "id": "2",
+      "title": "Chicken Nuggies",
+      "description": "The savory ambrosia of the gods, the one and only"
+    },
+    {
+      "id": "3",
+      "title": "Boiled Chicken Thigh with an ounce of ranch dressing",
+      "description": "I caught our line cook off two edibles eating this in the walk in freezer, he said the macros are fantastic."
+    },
+    {
+      "id": "4",
+      "title": "Also Poop Soup",
+      "description": "Somehow popular enough to show up twice. World Famous! Bread Bowl +2$"
+    },
+    {
+      "id": "5",
+      "title": "Box Mix Brownies",
+      "description": "Tastes just like your 4th grade pizza party!"
+    },
+    {
+      "id": "0757",
+      "title": "steak",
+      "description": "made a steak yesterday :)"
+    }
+  ]
 }
