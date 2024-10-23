@@ -1,0 +1,21 @@
+1. PHP is a popular server-side scripting language primarily used for web development.
+ It is especially suited for creating dynamic web pages and web applications.
+ Generally speaking, serverside languages play a pivotal role in creating interactive and data-driven web applications by handling back-end logic, database operations,  and user management.
+
+ 2. PHP and Javascript are both similar in that they are considered scripting languages, they have a web development focus, they both have dynamic content generation and OOP features, and they both have extensive libraries that enhance the capabilities.
+However, PHP runs on the server and Javascript runs in the client's browser. PHP is largely used for backend programming whereas Javascript is largely used for frontend.
+In addition to this, PHP is often used to interact directly with databases on the server side, whereas javascript does not typically interact with databases directly; instead opting to use AJAX. Also, PHP is generally used for synchonous operations whereas Javascript is natively suited for asynchronous operations.
+
+3. PHP is a widely-used server-side scripting language known for its ease of learning and user-friendly syntax, making it accessible for beginners.
+It boasts a large and active community that provides extensive resources, documentation, and support for developers.
+It also integrates seamlessly into databases and offers robust frameworks that enhance useability.
+ It is also supported by most web hosting providers, ensuring cost-effective deployment across various platforms.
+
+ 4. Both include and require are used to include files, but differ greatly in how they handle errors and missing files.
+ With include, if the specified file cannot be found, PHP generates a warning and continues. With require, PHP generates a fatal error.
+ include is typically used for files that are not critical to an applications functionality, whereas require is typically used for essential files.
+
+ 5. echo and var_dump are both PHP functions used for outputting data, but they serve 2 different purposes and provide different levels of detail.
+ echo is primarily used for outputting strings or variables in the browser. It is a language construct rather than a function, meaning it does not require parentheses.
+ var_dump is primarily used for debugging purposes, as it displays structured information(type/value) about one or more variables.
+ echo only outputs the value of the variable or string provided, whereas var_dump outputs the data type and value.

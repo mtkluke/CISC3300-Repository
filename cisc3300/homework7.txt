@@ -1,0 +1,22 @@
+1. A class is a template in OOP that defines the structure and behavior of objects.
+An object is an instance of a class. It has its own set of attributes and can perform methods defined by the class.
+OOP as a whole refers to object-oriented programming, which is a programming model based around the concept of objects.
+It organizes software design around data, or objects, rather than functions and logic.
+
+2. Abstract classes allow for the creation of more organized, modular, and maintainable code. 
+They help facilitate a clear relationship between classes whilst reinforcing certain design principles that enhance the overall architecture of the application.
+You can establish a common interface between classes, partially implement methods, encapsulate shared logic, and use several other key features that help enhance useability.
+
+3. Superglobals in PHP are built-in global variables that are always accessible, regardless of the scope in which they are used.
+They provide access to data across different parts of a script without needing to declare them as global.
+They are very useful in handling user input, session data, server information, and other applications.
+A few common ones are $_GET, $_POST, $_SESSION,$_COOKIE,$_SERVER, etc.
+
+4. Setting up and using a class in PHP involves defining a namespace(using namespace keyword and desired name) and then using the class(import using the use keyword or referencing it with its fully qualified name ).
+
+5. MVC is a software architectural pattern commonly used in web applications to seperate concerns and organize code effectively.
+This separation helps manage complexity, making applications easier to maintain, test, and scale.
+It has 3 main components:
+Model: the model represents the data and business logic of the application. It is responsible for managing the data.
+View: the view is responsible for presenting the data to the user. It is the user interface of the application and displays information recieved from the model.
+Controller: the controller acts as the intermediary between the Model and the View. It processes user inputs, interacts with the Model to retrieve/modify data, and selects the appropriate View to render the response.
