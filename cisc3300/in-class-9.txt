@@ -1,0 +1,11 @@
+1. URL
+2. $_GET
+3. $_POST
+4. not be interpreted literally
+5. syntax
+6. accuracy & validity
+7. cookie
+8. Sessions
+9. Errors are issues in a program that occur during execution, usually related to syntax, logical mistakes, or unforseen conditions that present the program from running as usual.
+
+Exceptions are a specific type of error that represent unusual events like a file not being found, user misinput, or operator overflow.
