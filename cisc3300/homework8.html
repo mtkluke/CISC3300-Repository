@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<head>
+    <title> Try/Catch Test</title>
+</head>
+
+<body>
+   <h1> HW 8 Question 6</h1> 
+   <div id="result"></div>
+    <script>
+    try { 
+        undefinedFunction();
+    } 
+    catch(error) {
+        document.getElementById("result").innerHTML =
+        "<p style='color: red;'>An error occurred: Pooped my pants - " + error.message + "</p>";
+    }
+    </script>
+</body>
+
+</html>

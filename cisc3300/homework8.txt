@@ -1,0 +1,18 @@
+1. https://www.example.com/?param1=chicken&param2=steak
+
+2. Escaping a character refers to converting a special character to a different format to ensure it is safely interpreted by the browser/server.
+This is usually done by replacing the character with a specific code that the system will recognize.
+
+3. 200 - OK - The request was successful and the server responded with the requested resource/info.
+400 - Bad Request - The server could not understand the request.
+401 - Unauthorized - Authentication is required to access resource, and credentials are missing.
+403 - Forbidden - Server understood request but refused to authorize it.
+404 - Not Found - The classic; Server can't find the requested resource
+500 - Internal Server Error - Server encountered an unexpected condition that prevented it from fulfilling the request.
+
+4. Data validation ensures data integrity, security, and compliance by verifying that inputs are accurate, complete, and correctly formatted.
+The process is crucial to minimizing errors, improving user experience, and preventing malicious use/system failure.
+
+5. Sessions and Cookies are mechanisms used to store user information on websites.
+Cookies are small pieces of data stored on the user's browser used to remember preferences, login states, or tracking information across visits.
+Sessions store data on the server for a single user session, usually identified by a unique session ID shared with the user's browser that expires after a set period/upon logout.
