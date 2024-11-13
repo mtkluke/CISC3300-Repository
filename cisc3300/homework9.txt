@@ -1,0 +1,23 @@
+1. SQL, or Standardized Query Language, is a coding language used to manage and manipulate relational databases.
+
+MySQL is an open-source relational database management system that uses SQL as its query language. It is known to be very reliable and flexible, allowing it to be used in a variety of different ways.
+
+Relational Databases as a whole are a type of database that organizes data into rows and columns where each table represents an entity and each column represents an attribute of that entity.
+
+2. Normalization in SQL is the process of organizing data in a database to reduce redundancies and improve data integrity. The goal is to structure the database in such a way that minimizes duplicated data/dependencies, allowing for easier maintenance and usage.
+
+3. Primary Key: A unique identifier for each record(row) in a table. It ensures each row can be uniquely identified and there are no duplicates. They cannot contain NULL values and must be unique across the table.
+
+Foreign Key: A field(or several) in a table that uniquely identifies a row in another table. It creates a link between two tables, establishing a relationship by refrencing the primary key in another table. 
+
+4. The 3 types of relationships are:
+
+One to One: Each row in a table is linked to a single, unique row in another table. Used when data needs to be split across multiple tables to avoid duplication/manage sensitive data.
+
+One to Many: A row in one table can be associated with multiple rows in another table, but each row in the second table is linked to only one row on the first table. Most common type of relationship and is used where a single entity is related to multiple associated entities.
+
+Many to Many: rows in one table can relate to multiple rows in another table, and vice versa. Usually implemented using a junction table which contains foreign keys that refrence the primary keys of the two tables. 
+
+5. INNER JOIN: returns only the rows that have matching values in both tables. If a row in either table does not have a match on the other side, it is excluded.
+
+LEFT JOIN: returns all rows from the left table and matching rows from the right table. If there is no match on the right table, it will return a NULL value.

@@ -1,0 +1,19 @@
+1.PDO (php data objects)
+
+2.DSN (data source name)
+
+3. .env file
+
+4. ignore
+
+5. Statment
+
+6. fetch()
+
+7. fetchAll()
+
+8. prepared statement
+
+9. prepare
+
+10. SQL injection
