@@ -1,0 +1,16 @@
+1. PDOs are PHP Data Objects, a database access layer of PHP that provides a consistent inferace for accessing different types of databases
+
+A DSN is a data source name, which is a string that defines the connection parameters for a database.
+It is critical to creating a PDO instance and is used to specify the type of database, the host, database name, charset, and other variables.
+
+2.  .env files are used to store environmental variables for a project. These variables typically contain sensitive/configurable information like API keys, database credentials, or other application settings.
+
+A .gitignore file tells Git which directories to ignore in a Git repository. This is useful for excluding files that contain sensitive data/are irrelevant to the project.
+
+3. No, you should never upload passwords of any kind to Github.
+
+4. SQL Injection is a type of cyberattack where an attacker manipulates SQL query by injecting malicious SQL code into an application's input fields. 
+The vulnerability occurs when user input is improperly handled and directly incorporated into SQL statements, allowing attackers to bypass authentication, access, modify, and delete data.
+
+5. Prepared statments are a feature of database libraries that seperate the SQL query structure from user input, making them a secure and efficient way to execute queries.
+In order to insert variables into a prepared statement, you can use positional placeholders(use ? as a placeholder for variables.)
